@@ -1,0 +1,15 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#image01 {
+    width: 40px;
+}
+
+#para {
+    position: relative;
+    left: 910px;
+    top: -390px;
+    font-size: 20px;
+}

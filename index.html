@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate and feed millions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="intern.2.PNG" class="logo">
+
+            <ul>
+                <!-- <li><a href="#">Home</a></li> -->
+                <li><a href="#about">About Us</a></li>
+                <li><a href="finaldonation.html" onclick="myfunction">Donate</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>DONATE YOUR VALUABLE MONEY</h1>
+        <p>There are millions of people waiting for food out there :(</p> <br>
+        <button type="button" class="buttons" onclick=myFunction()>Donate</button>
+        <button type="button" class="buttons" onclick=myFunction1()>About Us</button>
+
+
+        <div id="about">
+            <h2> About</h2>
+            <h4> Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Fugit dicta porro sequi nemo doloribus,<br> omnis praesentium molestias nesciunt repellat similique quo, ut vero.<br> Magni beatae ipsam tempora cum expedita est. Lorem ipsum dolor
+                sit amet, consectetur adipisicing elit. Autem, ipsa suscipit dolores voluptas ipsum, aspernatur iure eos placeat earum, laboriosam rerum. Laudantium a vitae quibusdam vero, quae quos dignissimos est? Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Dolore nulla placeat minus blanditiis beatae reprehenderit, voluptatum voluptatibus ab doloremque ullam provident a nisi vitae perspiciatis, recusandae hic in libero sapiente!</h4>
+        </div>
+
+    </div>
+
+
+
+
+    <script>
+        document.getElementById("donatebtn").addEventListener("click", myFunction);
+
+        function myFunction() {
+            window.location.href = "http://127.0.0.1:5501/finaldonation.html";
+        }
+
+        document.getElementById("aboutbtn").addEventListener("click", myFunction1);
+
+        function myFunction1() {
+            window.location.href = "#about";
+        }
+    </script>
+
+</body>
+
+
+
+
+
+</html>
